@@ -1,1 +1,1 @@
-export { default as YieldTable } from "./YieldTable"
+export { default as YieldTable } from "./YieldTable";

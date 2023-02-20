@@ -6,7 +6,7 @@ import { WagmiConfig } from "wagmi";
 import { appInfo, useWagmi } from "@/services/wagmi";
 
 function App({ Component, pageProps }: AppProps) {
-  const { chains, wagmi } = useWagmi()
+  const { chains, wagmi } = useWagmi();
 
   return (
     <WagmiConfig client={wagmi}>
@@ -14,7 +14,7 @@ function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </RainbowKitProvider>
     </WagmiConfig>
-  )
-};
+  );
+}
 
-export default App
+export default App;
